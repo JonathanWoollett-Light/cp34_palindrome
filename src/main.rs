@@ -1,4 +1,12 @@
 use std::env;
+
+// A program to add as few character to a string as possible to make it a palindrome
+
+// -----------Examples-----------
+// synonym -> s-m-yn-o-ny-m-s
+// fabolous -> fab-su-o-l-o-us-baf
+// kindly -> yldni--k--indly-
+
 fn main() {
     let arguments:Vec<String> = env::args().collect();
     
